@@ -106,6 +106,7 @@ div > .dollars{
     flex: 1;
 } */
 #result{
+    padding: 12px;
     display:  flex; 
     flex: 1;
 }
