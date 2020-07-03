@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>invoice</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-     <div id="invoice">
-        <div class="header"> 
+    <div id="invoice">
+        <div class="header">
             <p><i class="fa fa-university" aria-hidden="true"></i></p>
             <p>invoice</p>
-            <p class="adding"><i class="fa fa-plus" aria-hidden="true"></i></p>
+            <button id="adding"><i class="fa fa-plus" aria-hidden="true"></i></button>
         </div>
         <div class="calculate">
             <div class="totalEarning">
-                <p>hd</p>
+                <h6>hd</h6>
                 <p>Total Earnings</p>
-                <p>$4500</p>
-             </div>
+                <p class="dollars">$4500</p>
+            </div>
             <div class="paidThisMonth">
                 <div class="paid1">
                     <p>paid this month</p>
-                    <p>$1</p>   <input type="button" name="btn" placeholder="btn" value="btb" />
-       
+                    <p>$1</p>
+                    <input type="button" name="btn" placeholder="btn" value="btb" />
+
                 </div>
                 <div class="paid2">
                     <p>paid this month</p>
@@ -33,6 +36,32 @@
                 </div>
             </div>
         </div>
-     </div>
+        <div class="BoardNames">
+            <div class="boardGame">
+                <p>Board Group </p>
+                <p> $234 </p>
+                <div class="horizontal"></div>
+            </div>
+            <div class="boardGame">
+                <p>Board Group </p>
+                <p> $234 </p>
+                <div class="horizontal"></div>
+            </div>
+            <div class="boardGame">
+                <p>Board Group </p>
+                <p> $234 </p>
+                <div class="horizontal"></div>
+            </div>
+        </div>
+        <div class="Recent Invoices">
+            <p>Recent invoices </p>
+            <div id ="RecentInvoiceAdd"></div>
+        </div>
+    </div>
+    <div id="res"">
+        
+    </div>
+
+    <script src="script.js"></script>
 </body>
-</html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+</html>
