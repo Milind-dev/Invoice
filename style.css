@@ -101,8 +101,12 @@ div > .dollars{
     height: 12px;
     background: blue;
 }
-#res{
-    display:  flex;
+/* #res{
+    display:  flex; 
+    flex: 1;
+} */
+#result{
+    display:  flex; 
     flex: 1;
 }
 
