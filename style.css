@@ -3,26 +3,27 @@
 *{
     margin: 0px;
     padding: 0px;
-    
 }
 body{
-    background-color: whitesmoke;
+    background-image: linear-gradient(to right bottom, #a6ab89, #878a70, #686a58, #4b4b41, #2f2f2c);
     font-size: 23px;
     border: 1px solid crimson;
     margin: 70px;
     width: 340px;
+    border-radius: 15px;
 }
 
 .header{
     background-color: whitesmoke;
-    border:1px solid  red;
+    border:2px solid  red;
     display: flex;
     flex: 1;
 }
 #adding{
     margin-left: 200px;
     width: 120px;
-    background-color: darkcyan;
+    border-radius: 10px 10px 0px 0px;
+    background-color: tomato;
 }
 /* button{
     width: 12px;
@@ -74,7 +75,7 @@ body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,120,147,0.9066001400560224) 35%, rgba(0,212,255,1) 100%);
     margin: 12px;
 }
-div > .dollars{
+div > #dollars{
     font-size: 32px;
     margin-top: 28px;
 }
@@ -111,3 +112,36 @@ div > .dollars{
     flex: 1;
 }
 
+img{
+    width: 72px;
+}
+
+#talkbubble {
+        width: 120px;
+        height: 80px;
+        margin-left: 350px;
+        background: white;
+        position: relative;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+      }
+     
+    
+    /* box-sizing: border-box; */
+
+#talkbubble:before {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid white;
+    border-bottom: 13px solid transparent;
+  }
+  .invoice{
+      display: flex;
+  }
+  
